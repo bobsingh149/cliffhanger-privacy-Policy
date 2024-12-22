@@ -1,0 +1,80 @@
+.privacy-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #333;
+}
+
+.app-header {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.back-button {
+  background: none;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #007bff;
+}
+
+.back-button:hover {
+  color: #0056b3;
+}
+
+.container {
+  padding: 20px;
+}
+
+.privacy-content h1 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.privacy-content h2 {
+  color: #34495e;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.privacy-content h3 {
+  color: #455a64;
+  margin-top: 1.5rem;
+}
+
+.privacy-content p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.privacy-content ul {
+  margin-bottom: 1rem;
+  padding-left: 20px;
+}
+
+.privacy-content li {
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  .privacy-content {
+    padding: 15px;
+  }
+  
+  .privacy-content h1 {
+    font-size: 24px;
+  }
+  
+  .privacy-content h2 {
+    font-size: 20px;
+  }
+} 
